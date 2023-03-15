@@ -64,13 +64,13 @@ i.h{background:#000000;}
     color: #b8c6dc;
     width: calc(100% / 4);
     cursor: pointer;
-    border-right: 1px solid #171b26;
+    border-right: 0px solid #171b26;
 }
 
 @media screen and (max-width: 800px) {
     .wrapper{
         width: 90vmin;
-        height: 150vmin;
+        height: 170vmin;
     }
 
     .game-details{
@@ -83,7 +83,7 @@ i.h{background:#000000;}
     }
 
     .controls i{
-        padding: 15px 0;
+        padding: 25px 0;
         font-size: 1rem;
     }
 }
